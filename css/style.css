@@ -1,0 +1,40 @@
+body {
+  background-image: url("../pic/pic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 120px auto;
+  width: 60%;
+}
+
+.card {
+  background-color: rgba(228, 189, 83, 0.7);
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  height: 200px;
+  box-shadow: grey 2px 2px 5px;
+}
+
+.card:hover {
+  background-color: rgba(243, 145, 120, 0.9);
+  box-shadow: rgb(91, 223, 228) 5px 5px 7px;
+}
+
+.next-btn:hover {
+  box-shadow: lightslategrey 5px 5px 5px;
+}
+.next-btn {
+  width: 80px;
+  height: 30px;
+  color: darkblue;
+  border: 2px rgb(119, 113, 113) solid;
+  border-radius: 5px;
+  background-color: darkgray;
+  right: 5px;
+  bottom: 5px;
+}
